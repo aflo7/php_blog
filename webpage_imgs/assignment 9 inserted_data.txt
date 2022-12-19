@@ -1,0 +1,90 @@
+﻿INSERT INTO `posts`(`pID`, `pheading`, `pcontent`, `pallowcomment`, `pyear`, `pmonth`, `pday`, `pdateposted`, `pauthor`, `pusername`, `prevdate`) VALUES (NULL,'First Blog Post','<p>First blog entry. This is fun.</p>','1','2018','01','01','2021-01-27 13:11:03','Andres Flores','admin','2021-01-27 13:11:03');
+
+
+0 comments
+
+
+—-------------------------------
+
+
+INSERT INTO `posts`(`pID`, `pheading`, `pcontent`, `pallowcomment`, `pyear`, `pmonth`, `pday`, `pdateposted`, `pauthor`, `pusername`, `prevdate`) VALUES (NULL,'Tech news for the week','<p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>','1','2017','01','01','2021-01-27 13:11:03','Joe Chao','jchao','2021-01-27 13:11:03');
+
+
+1 comment
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES('NULL',7,'I enjoyed read the post!','aflo7','jchao@gmail.com','2021-01-27 13:11:03',0,'admin','2021-01-27 13:11:03')
+—---------------------------
+
+
+INSERT INTO `posts`(`pID`, `pheading`, `pcontent`, `pallowcomment`, `pyear`, `pmonth`, `pday`, `pdateposted`, `pauthor`, `pusername`, `prevdate`) VALUES (NULL,'PHP is cool','<p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>','1','2017','01','01','2020-01-27 13:11:03','Joe Chao','jchao','2021-01-27 13:11:03');
+
+
+2 comments
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,8,'I agree php is great. loved the post!','aflo7','andres@gmail.com','2021-01-27 13:11:03',0,'admin','2021-01-27 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,8,'I hate php.','bob11','andres@gmail.com','2021-01-27 13:11:03',0,'bob66','2021-01-27 13:11:03');
+
+
+—---------------------------—---------------------------
+
+
+INSERT INTO `posts`(`pID`, `pheading`, `pcontent`, `pallowcomment`, `pyear`, `pmonth`, `pday`, `pdateposted`, `pauthor`, `pusername`, `prevdate`) VALUES (NULL,'James Webb Telescope finds a second Earth.','<p> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>','1','2014','01','01','2020-01-27 13:11:03','Neil Degrasse Tyson','neild','2021-01-27 13:11:03');
+
+
+3 comments
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,9,'who cares??','Andres Flores','andres@gmail.com','2021-01-27 13:11:03',0,'aflo','2021-01-27 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,9,'I hate space!.','Andres Flores','andres@gmail.com','2021-01-27 13:11:03',0,'aflo','2021-01-27 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,9,'I like space.','Andres Flores','andres@gmail.com','2021-01-27 13:11:03',0,'aflo','2021-01-27 13:11:03');
+
+
+—------------------------------------
+INSERT INTO `posts`(`pID`, `pheading`, `pcontent`, `pallowcomment`, `pyear`, `pmonth`, `pday`, `pdateposted`, `pauthor`, `pusername`, `prevdate`) VALUES (NULL,'COVID-19 Warning','<p>There has been a rapid increase in covid cases. Please stay indoors for the next 3 months. Keep your family safe..</p><p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>','1','2014','01','01','2020-01-27 13:11:03','Fauci Doctor','fauc99','2020-02-20 13:11:03');
+
+
+4 comments
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,10,'lorem ipsum, lorem ipsum','Andres Flores','andres@gmail.com','2021-01-27 13:11:03',0,'aflo','2020-02-21 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,10,'lorem ipsum!!!!, ipsum, hahaha, lorem ipsum','Joe Chao','jchao@gmail.com','2020-02-23 13:11:03',0,'aflo','2020-02-21 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,10,'lorem ipsum!!!!, ipsum, hahaha, lorem ipsum','Joe Chao','jchao@gmail.com','2020-02-23 13:11:03',0,'aflo','2020-02-21 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,10,'I agree, everyone stay safe.','Billy Kalina','jchao@gmail.com','2020-02-23 13:11:03',0,'bkal123','2020-02-21 13:11:03');
+
+
+—--------------------------------
+
+
+INSERT INTO `posts`(`pID`, `pheading`, `pcontent`, `pallowcomment`, `pyear`, `pmonth`, `pday`, `pdateposted`, `pauthor`, `pusername`, `prevdate`) VALUES (NULL,'How to get 100 million dollars.','<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p><p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>','1','2014','01','01','2022-12-25 13:11:03','Joe Rogan','jrepodcast','2022-12-25 13:11:03');
+
+
+5 comments
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,11,'I want 100 million.','Jake Red','jred@gmail.com','2022-12-25 13:11:03',0,'jake_red','2022-12-25 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,11,'I also want 100 million.','Jill Red','jillred@gmail.com','2022-12-25 13:11:03',0,'jill_red','2022-12-25 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,11,'I also want 100 million.','Steve Red','steve@gmail.com','2022-12-25 13:11:03',0,'steve_red','2022-12-25 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,11,'I also want 100 million.','Steve Red','jred@gmail.com','2022-12-25 13:11:03',0,'steve_red','2022-12-25 13:11:03');
+
+
+INSERT INTO `comments`(`cID`, `cpID`, `ccomment`, `cauthor`, `cauthemail`, `cdateposted`, `capproved`, `cusername`, `crevdate`) VALUES(NULL,11,'I also want 100 million.','Graham Red','graham@gmail.com','2022-12-25 13:11:03',0,'graham_red','2022-12-25 13:11:03');
