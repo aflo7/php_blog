@@ -1,4 +1,4 @@
-Live demo: https://voyager.cs.bgsu.edu/4620/florand/php_blog/
+Live demo: 
 
 Features
 - view blog posts stored in the database
